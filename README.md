@@ -2,7 +2,7 @@
 
 An agent skill that takes a half-baked idea and turns it into an engineered, build-ready design package, in **any** engineering field: software, mechanical, electrical, civil, chemical, aerospace, bio, robotics, product or process.
 
-It doesn't overcomplicate things. It overengineers the *rigor*: requirements with acceptance criteria, system architecture, trade studies, interface control, budgets and calcs, BOM, FMEA, compliance, a V&V plan and an EVT/DVT/PVT roadmap, all written in real technical jargon with real components and standards.
+It doesn't overcomplicate things. It overengineers the *rigor*: requirements with acceptance criteria, system architecture, trade studies, interface control, budgets and calcs, BOM, full technical stack, FMEA, compliance, a V&V plan and an EVT/DVT/PVT roadmap, all written in real technical jargon with real components and standards.
 
 ## Install
 
@@ -25,15 +25,16 @@ You get one Markdown document, `<Codename>: Engineering Design Package`, with th
 3. ConOps
 4. Requirements
 5. System architecture (mermaid diagram)
-6. Trade studies
-7. Interface control
-8. Engineering analysis and budgets
-9. Software / firmware / data stack
-10. BOM and manufacturing
-11. Safety, compliance, FMEA, risk register
-12. Verification and validation
-13. Roadmap
-14. Open questions and next actions
+6. Technical stack (every layer: frontend, backend, servers, databases, hardware, CAD/CAE, process control and more, depending on the field, with a plain-language walkthrough)
+7. Trade studies
+8. Interface control
+9. Engineering analysis and budgets
+10. Security and data
+11. BOM and manufacturing
+12. Safety, compliance, FMEA, risk register
+13. Verification and validation
+14. Roadmap
+15. Open questions and next actions
 
 ## Rules it follows
 
