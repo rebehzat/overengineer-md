@@ -1,14 +1,15 @@
 # overengineer-md
 
-An agent skill that takes a half-baked idea and turns it into an engineered, build-ready design package, in **any** engineering field: software, mechanical, electrical, civil, chemical, aerospace, bio, robotics, product or process.
+An agent skill that takes a half-baked idea and thinks it through the way a seasoned engineering team would, in **any** field: software, hardware, mechanical, electrical, civil, chemical, aerospace, bio, robotics, product or process.
 
-It doesn't overcomplicate things. It overengineers the *rigor*: requirements with acceptance criteria, system architecture, trade studies, interface control, budgets and calcs, BOM, full technical stack, FMEA, compliance, a V&V plan and an EVT/DVT/PVT roadmap, all written in real technical jargon with real components and standards.
+It doesn't overcomplicate things. It overengineers the *rigor*: real components and standards, correct jargon, justified choices, honest trade-offs, and numbers that show their working. It's general guidance, not a fixed template, so the agent covers what actually applies to the idea and picks the depth and format that fit.
 
 ## Install
 
 Copy the `overengineer-md/` folder (it holds `SKILL.md`) into your agent's skills directory, for example:
 
 - Claude Code: `~/.claude/skills/overengineer-md/`
+- Codex: `~/.codex/skills/overengineer-md/`
 - Cursor / other agents that read `SKILL.md`: your skills folder
 
 ## Use
@@ -17,30 +18,16 @@ Copy the `overengineer-md/` folder (it holds `SKILL.md`) into your agent's skill
 
 > overengineer this: an app that reminds me to drink water
 
-You get one Markdown document, `<Codename>: Engineering Design Package`, with these sections:
+## What it thinks through
 
-0. TL;DR
-1. Problem statement and assumptions
-2. Disciplines involved
-3. ConOps
-4. Requirements
-5. System architecture (mermaid diagram)
-6. Technical stack (every layer: frontend, backend, servers, databases, hardware, CAD/CAE, process control and more, depending on the field, with a plain-language walkthrough)
-7. Trade studies
-8. Interface control
-9. Engineering analysis and budgets
-10. Security and data
-11. BOM and manufacturing
-12. Safety, compliance, FMEA, risk register
-13. Verification and validation
-14. Roadmap
-15. Open questions and next actions
+Whatever applies: the problem and assumptions, the disciplines involved, how it's used, measurable requirements, architecture, the full technical stack, key trade-offs, interfaces, engineering analysis and budgets, security and data, building and manufacturing, risk and safety, testing, a roadmap, and open questions.
 
 ## Rules it follows
 
 - The jargon has to be correct, and the components and standards have to be real.
-- Every number shows its formula or is labelled `estimate`, `assumption` or `target`.
+- Every number shows its basis or is labelled as an estimate, assumption or target.
 - Your core idea stays the same. Only the execution gets overengineered.
+- If a simpler option meets the need, it picks it and says why.
 
 ## License
 
